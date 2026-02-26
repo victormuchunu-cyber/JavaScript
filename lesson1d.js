@@ -43,8 +43,11 @@ let student = {
 
 // How to access the values in an object.
 // 1) Dot Notation
-console.log(student.name);      // Victor
-console.log(student.age);       // 22
+console.log(student);      // 
+// console.log(student.age);       // 22
+
+
+
 
 // 2) Bracket Notation
 console.log(student["course"]);     // Computer Science
@@ -53,13 +56,13 @@ console.log(student["isGraduated"]); // false
 
 
 // B) Array data type: An array stores multiple values in a single variable. It uses index numbers starting from 0.
-let fruits = ["Mango", "Banana", "Orange", "Apple"];
+let fruits = ["Mango", "Banana", "Orange", "Apple, Pineapple"];
 
 // How to access the values in an array
 // 1) Using index numbers
 console.log(fruits[0]);  // Mango
-console.log(fruits[2]);  // Orange
-
+console.log(fruits.slice(2, 4));  // Orange
+console.log(typeof(fruits))
 
 
 // OBJECT INSIDE ARRAY
@@ -80,6 +83,6 @@ let school = {
 };
 
 // How to access the values in an array inside an object
-console.log(school.students[0]);  // Ann
+console.log(school.name , school.students[0]);  // Brian
 
 
