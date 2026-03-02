@@ -64,7 +64,7 @@ let monthlyContribution = calculateContribution(grossIncome);
 console.log("Monthly Contribution: Ksh " + monthlyContribution);
 
 console.log("==================")
-// Research on arrow function, functions with oarameters and anonymous functions in javascript
+// Research on arrow function, functions with parameters and anonymous functions in javascript
 
 // 1) ARROW FUNCTIONS (=>)
 // a shorter way to write functions in javascript
